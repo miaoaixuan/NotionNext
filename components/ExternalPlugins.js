@@ -10,6 +10,7 @@ import { CUSTOM_EXTERNAL_CSS, CUSTOM_EXTERNAL_JS } from '@/blog.config'
 import { isBrowser, loadExternalResource } from '@/lib/utils'
 import { useEffect } from 'react'
 import { initGoogleAdsense } from './GoogleAdsense'
+import GoogleAdsense from '@/components/GoogleAdsense'
 
 const TwikooCommentCounter = dynamic(
   () => import('@/components/TwikooCommentCounter'),
